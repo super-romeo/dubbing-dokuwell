@@ -16,6 +16,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For video creators and companies: upload a video, pick languages and get it dubbed in a voice like yours, with subtitles and a transcript.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -75,38 +79,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Dub Studio</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Dub Studio</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Dub your videos into other languages — in a voice like yours, with an editable script</h1>
-    <p class="sub">For creators, course authors and companies: upload a video, choose the languages, review the translated script line by line, and export the dubbed video, the audio track and subtitles — ready to upload as a new language track.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For creators, course authors and companies</p>
+      <h1 class="rise" style="--i:1" data-len="long">Dub your videos into other languages&nbsp;<span class="soft">— in a voice like yours, with an editable script</span></h1>
+      <p class="rise" style="--i:2">For creators, course authors and companies: upload a video, choose the languages, review the translated script line by line, and export the dubbed video, the audio track and subtitles — ready to upload as a new language track.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="120" y="165" font-size="36" font-weight="600" fill="#0a1524">Dub your videos</text><line x1="80" y1="210" x2="1120" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="255" width="48" height="48" rx="8" fill="#12397a" /><rect x="200" y="267" width="260" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="350" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="200" y="362" width="340" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="445" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="200" y="457" width="220" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="540" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="200" y="552" width="300" height="24" rx="12" fill="#dde2ea" /><rect x="680" y="250" width="390" height="420" rx="20" fill="#dfe8f7" /><text x="710" y="325" font-size="30" font-weight="600" fill="#0a1524">other languages</text><rect x="730" y="540" width="24" height="40" rx="6" fill="#ffffff" /><rect x="770" y="500" width="24" height="80" rx="6" fill="#ffffff" /><rect x="810" y="450" width="24" height="130" rx="6" fill="#ffffff" /><rect x="850" y="510" width="24" height="70" rx="6" fill="#ffffff" /><rect x="890" y="420" width="24" height="160" rx="6" fill="#12397a" /><rect x="930" y="490" width="24" height="90" rx="6" fill="#ffffff" /><rect x="970" y="530" width="24" height="50" rx="6" fill="#ffffff" /><rect x="1010" y="470" width="24" height="110" rx="6" fill="#ffffff" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>Creators course authors and companies</dd></div>
+      <div><dt>Dubs</dt><dd>Dub your videos</dd></div>
+      <div><dt>Review</dt><dd>Review the translated script</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>A voice like yours</b><span>The dubbed voice keeps the tone of the original speaker, with several speakers kept apart.</span><br><a class="btn" href="price.html" data-ev="feature_voice">I need this</a></div>
-      <div class="card"><b>Editable script</b><span>Translation shown line by line; fix names, terms and phrasing before the voice is generated.</span><br><a class="btn" href="price.html" data-ev="feature_script">I need this</a></div>
-      <div class="card"><b>Timing kept</b><span>Dubbed lines fit the length of the original so the video does not drift.</span><br><a class="btn" href="price.html" data-ev="feature_timing">I need this</a></div>
-      <div class="card"><b>Export for upload</b><span>Dubbed video, separate audio track for multi-language uploads, and subtitles.</span><br><a class="btn" href="price.html" data-ev="feature_export">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" rx="22" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="110" y="155" font-size="32" font-weight="600" fill="#0a1524">A voice like yours</text><line x1="140" y1="470" x2="660" y2="470" stroke="#dde2ea" stroke-width="4" /><rect x="170" y="380" width="64" height="90" rx="8" fill="#dfe8f7" /><rect x="290" y="320" width="64" height="150" rx="8" fill="#dfe8f7" /><rect x="410" y="260" width="64" height="210" rx="8" fill="#12397a" /><rect x="530" y="350" width="64" height="120" rx="8" fill="#dfe8f7" /></svg></div>
+        <h3>A voice like yours</h3><p>The dubbed voice keeps the tone of the original speaker, with several speakers kept apart.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_voice">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" rx="22" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="110" y="155" font-size="32" font-weight="600" fill="#0a1524">Editable script</text><rect x="120" y="210" width="240" height="270" rx="12" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><rect x="450" y="210" width="230" height="270" rx="12" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><polygon points="385,330 430,305 430,355" fill="#12397a" /><rect x="148" y="260" width="160" height="18" rx="9" fill="#dde2ea" /><rect x="478" y="260" width="160" height="18" rx="9" fill="#b9c3d2" /><rect x="148" y="318" width="130" height="18" rx="9" fill="#dde2ea" /><rect x="478" y="318" width="130" height="18" rx="9" fill="#b9c3d2" /><rect x="148" y="376" width="170" height="18" rx="9" fill="#dde2ea" /><rect x="478" y="376" width="170" height="18" rx="9" fill="#b9c3d2" /></svg></div>
+        <h3>Editable script</h3><p>Translation shown line by line; fix names, terms and phrasing before the voice is generated.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_script">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" rx="22" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="110" y="155" font-size="32" font-weight="600" fill="#0a1524">Timing kept</text><line x1="130" y1="320" x2="670" y2="320" stroke="#dde2ea" stroke-width="4" /><rect x="150" y="294" width="140" height="52" rx="26" stroke="#dde2ea" stroke-width="2" fill="#ffffff" /><rect x="310" y="294" width="150" height="52" rx="26" fill="#dfe8f7" /><rect x="480" y="294" width="170" height="52" rx="26" fill="#12397a" /></svg></div>
+        <h3>Timing kept</h3><p>Dubbed lines fit the length of the original so the video does not drift.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_timing">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" rx="22" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="110" y="155" font-size="32" font-weight="600" fill="#0a1524">Export for upload</text><rect x="150" y="210" width="500" height="64" rx="16" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><rect x="150" y="295" width="500" height="64" rx="16" fill="#dfe8f7" /><rect x="150" y="380" width="500" height="64" rx="16" fill="#12397a" /></svg></div>
+        <h3>Export for upload</h3><p>Dubbed video, separate audio track for multi-language uploads, and subtitles.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_export">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">A 12-minute product tutorial in English. Spanish and Portuguese chosen. The script is reviewed: the product name and three technical terms fixed. Dubbed video and separate audio tracks exported, uploaded as additional audio languages on the same video.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>A 12-minute product tutorial in English. Spanish and Portuguese chosen. The script is reviewed: the product name and three technical terms fixed. Dubbed video and separate audio tracks exported, uploaded as additional audio languages on the same video.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="150" r="22" fill="#12397a" /><rect x="120" y="240" width="960" height="480" rx="24" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="170" y="320" font-size="36" font-weight="600" fill="#0a1524">Example</text><text x="170" y="410" font-size="32" fill="#566174">product tutorial</text><text x="170" y="490" font-size="32" fill="#566174">Spanish and Portuguese</text><text x="170" y="570" font-size="32" fill="#566174">technical terms</text><text x="170" y="650" font-size="32" fill="#566174">audio tracks</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>A video that works in one language can reach many more people in others. Creators add audio tracks in other languages to their channels, course authors sell the same course in new markets, and companies want product videos and training in the languages of their customers and staff. Re-recording with voice actors is slow and expensive; subtitles alone are not enough for many viewers.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>A video that works in one language can reach many more people in others. Creators add audio tracks in other languages to their channels, course authors sell the same course in new markets, and companies want product videos and training in the languages of their customers and staff. Re-recording with voice actors is slow and expensive; subtitles alone are not enough for many viewers.</p>
     <p>Dub Studio dubs your videos with AI and keeps you in control of the result. You upload a video or paste a link, choose the target languages and let the service transcribe and translate. The original speaker's voice is used as the model for the dubbed voice, so the video still sounds like you, and different speakers stay different.</p>
     <p>Before any audio is generated, you see the translated script line by line next to the original. You can fix names, product terms and phrasing, or mark words that must not be translated. A glossary keeps your terms consistent across all your videos.</p>
     <p>Dubbed lines are fitted to the length of the original lines, so the video does not drift and the speaker's pauses stay where they were. Background music and sound effects are kept under the new voice.</p>
@@ -116,31 +150,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>A typical project looks like this. You upload a finished video in the evening and choose two or three languages. The next morning the transcript and translations are ready for review. You spend a few minutes on names and terms, approve, and the dubbed versions are generated. You check one of them, export, and upload the new audio tracks to your channel or course platform.</p>
     <p>For channels with a back catalog, older videos can be dubbed in batches, so a library of tutorials becomes available in new languages within weeks instead of months.</p>
     <p>You must hold the rights to the videos you dub and to the voices used. We do not use your videos or voice to train models for others.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Does the dubbed voice sound like me?</h3>
-    <p>It is modeled on the original speaker's voice, so the tone stays close to yours.</p>
-    <h3>Can I correct the translation?</h3>
-    <p>Yes, line by line, before the voice is generated, with a glossary for your terms.</p>
-    <h3>What can I export?</h3>
-    <p>The dubbed video, a separate audio track and subtitles for each language.</p>
-    <h3>How are minutes counted?</h3>
-    <p>By the length of the source video for each target language.</p>
-    <h3>Can I use it already?</h3>
-    <p>Not yet. The service is in preparation, and we are checking whether creators need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Does the dubbed voice sound like me?</h3><p>It is modeled on the original speaker's voice, so the tone stays close to yours.</p></div>
+      <div class="split flip"><h3>Can I correct the translation?</h3><p>Yes, line by line, before the voice is generated, with a glossary for your terms.</p></div>
+      <div class="split flip"><h3>What can I export?</h3><p>The dubbed video, a separate audio track and subtitles for each language.</p></div>
+      <div class="split flip"><h3>How are minutes counted?</h3><p>By the length of the source video for each target language.</p></div>
+      <div class="split flip"><h3>Can I use it already?</h3><p>Not yet. The service is in preparation, and we are checking whether creators need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Upload your first video</h2>
-    <p><label>Minutes of video you publish per month<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>Up to 20</option><option>21–60</option><option>61–200</option><option>More than 200</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Upload a video</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Upload your first video</h2>
+    </div>
+    <div class="tile stack">
+      <label>Minutes of video you publish per month<select data-ev-focus="form_start"><option value="">— please choose —</option><option>Up to 20</option><option>21–60</option><option>61–200</option><option>More than 200</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Upload a video</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Dub Studio</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">You must hold the rights to the videos and voices you dub. We do not use your content to train models for others.</p>
+  <p>You must hold the rights to the videos and voices you dub. We do not use your content to train models for others.</p>
 </div></footer>
 
 </body>
